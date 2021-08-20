@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>U6-A2-Calculator</id>
+    <version>1.0.0</version>
+    <authors>Samual Rgadas</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <icon>Calc_Icon.png</icon>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Dangl.Calculator" version="1.2.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Sam Regadas\source\repos\U6-A2-Calculator\U6-A2-Calculator\bin\Debug\netcoreapp3.1\U6-A2-Calculator.runtimeconfig.json" target="lib\netcoreapp3.1\U6-A2-Calculator.runtimeconfig.json" />
+    <file src="C:\Users\Sam Regadas\source\repos\U6-A2-Calculator\U6-A2-Calculator\bin\Debug\netcoreapp3.1\U6-A2-Calculator.dll" target="lib\netcoreapp3.1\U6-A2-Calculator.dll" />
+    <file src="C:\Users\Sam Regadas\Documents\game\Calc_Icon.png" target="Calc_Icon.png" />
+  </files>
+</package>
